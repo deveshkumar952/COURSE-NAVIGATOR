@@ -1,0 +1,251 @@
+<html>
+<head>
+	<meta name="viewport" content="intial-scale=1.0">
+<title>SHARDA UNIVERSITY</title>
+<link rel="stylesheet" type="text/css" href="CSS/cnote_css.css">
+
+<script type="text/javascript" src="JS/cjs.js"></script>
+</head>
+<body onload="checkCookie()">
+	<div class="heading" id="head">
+		SHARDA UNIVERSITY
+	</div>
+	<img id="christmas" style="position: absolute; top: 0px;left: 20px"   src="http://www.lovethisgif.com/uploaded_images/32009-Christmas-Animated-Glitter-Gif-Images.gif" width="250px" height="100px">
+	<center>
+	<div style="border-radius: 0px 0px 10px 10px;padding: 5px 10px ;font-family:calibri;font-size: 20px;border:4px double gray;box-shadow:
+	0px 0px 40px #3463F1;border-top:none;color:black;width: 300px;">
+		<div id="sunday" style="display: none"></div>
+		<div style="margin-top: 10px" id="wish"></div>
+		<div style="font-size:20px;font-weight: bold;" id="cookie"></div>
+	</div>
+</center>
+	<br>
+	<br><br><br>
+<div class="menu" style="position: relative;left: 40px">
+	<a href="index.html" class="active">Home</a>
+	<a href="Paper.html">Previous year paper </a>
+	<a href="Smaterial.html">Study Material</a>
+	<a href="Whats_new.html">What's New</a>
+</div>
+<br>
+
+<br>
+<div style="padding: 1px; background-color: green;position:relative;left:30px;"></div>
+<br>
+<br>
+<br>
+<center>
+	<div class="content" id="time_table">
+
+	    
+		
+<p style="font-size: 25px;font-family: monospace; border-bottom: 2px dotted;padding: 10px 0px;">Time-Table</p>
+<br>
+<center>
+	<table border="1"> <!--class table-->
+		<tr class="tab_time">
+			<th>Day / Time</th>
+			<th>8:35 T 9:25</th>
+			<th>9:30 T 10:20</th>
+			<th>10:25 T 11:15</th>
+			<th>11:20 T 12:10</th>
+			<th>12:15 T 1:05</th>
+			<th>1:10 T 2:00</th>
+			<th>2:05 T 2:55</th>
+			<th>3:00 T 3:50</th>
+			<th>3:50 T 4:40</th>
+
+		</tr>
+		<tr>
+			<th></th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr id="1">
+			<th>Monday</th>
+			<td></td>
+			<td>EEE <br>806 B4 <br> DJC</td>
+			<td>ARP 102 <br>204 B3 <br>SJ</td>
+			<td>CSE 114 <br> 204 B3 <br> MMJ,JS</td>
+			<td>CSE 114 <br>205 B3 <br> MMJ,JS</td>
+			<td rowspan="3"> LUNCH </td>
+			<td>HMM 111 <br> 205 B3 <br> PR</td>
+			<td>BE <br> 502 B1  <br>D</td>
+			<td>VAC SET <br> 006B B3 <br> HS</td>
+		</tr>
+		<tr id="2">
+			<th>Tuesday</th>
+			<td colspan="2">MEP 106 <br> 013B B1 <br>BK</td>
+			<td></td>
+			<td colspan="2">CSP 242 <br> 202A B3 <br>MAK<td>
+			<td>ARP 102  <br> 204 B3 <br> SJ</td>
+			<td>MTH 145 <br> 204 B3 <br> MP</td>
+		</tr>
+		<tr id="3">
+			<th>Wednesday</th>
+			<td>CSE 114 <br> 008 B3 <br> MMJ,JS</td>
+			<td>EEE 112 <br> 503 B1 <br> DJC</td>
+			<td></td>
+			<td>MTH 145 <br> 806 B4 <br> MP</td>
+			<td>CSE 242 <br> 406 B4 <br> MAK</td>
+			<td></td>
+			<td>CSP 116 <br> 006 B3 <br> DSWA</td>
+		</tr>
+		<tr id="4">
+			<th>Thursday</th>
+			<td></td>
+			<td colspan="2">CSE 242 <br> 308 B <br> MAK</td>
+			<td>HMM 111  <br> 207A B3 <br> PR</td>
+			<td>LUNCH</td>
+			<td colspan="2">CSP 116 <br> 308 C B3 <br>DSWA<td>
+			<td>EEE 112 <br>009 B3 <br> DJC</td>
+		</tr>
+		<tr id="5">
+			<th>Friday</th>
+			<td>VAC SET <br> 006 B3 <br> HS</td>
+			<td></td>
+			<td></td>
+			<td>EEE 112 <br> 107 B3 <br> DJC</td>
+			<td>MTH 145 <br>208 B3 <br> MP</td>
+			<td>LUNCH</td>
+			<td>MTH 145 <br> 208 B3 <br>MP</td>
+			<td colspan="2">CSP 114 <br> 207A B3 <br>MMJ,JS</td>
+		</tr>
+
+	</table>
+</center>
+
+</div>
+</center>
+<br>
+<br>
+<br>
+<div style="padding: 1px;background-color: #5300e8;position:relative;left:30px;"></div>
+<br>
+
+<br>
+							<!--Fun Part-->
+	
+	<center><p id="clk" onclick="fun()" class="for_fun">important notification <strong></strong>
+		<span id="here" style="font-size: 15px;padding: 0px 0px 0px 20px" >Click here</span>
+	</p>
+	</center>
+			
+<center>
+<div class="content" style="border: none;border: 10px solid #673AB7;border-bottom: none;width: 550px;overflow: hidden;">
+
+	<h2 id ="dis" style="display: none;font-family: comic sans ms;">important notification</h2>
+	<div id="poem">
+	<p>	1 -> The mid term exam will starting from 12th march 2024</p>
+	<p>12th March -> CSE242</p>
+	<p>13th March -> CSE116</p>
+	<p>14th March -> MTH 142</p>
+	<p>15th March -> EEE 112</p>
+	<p>16th March ->HMM 11</p>
+	<!-- <p>You can quote them, disagree with them,</p>
+	<p>Glorify or vilify them.</p>
+	<p>About the only thing you can't do...</p>
+	<p>... is ignore them.</p>
+	<p>Because they change things,they push the human race forward.</p>
+	<p>While some may see them as the crazy ones</p>
+	<p>We see GENIUS</p>
+	<p>Becasue THE PEOPLE WHO ARE CRAZY ENOUGH,</p>
+	<p>TO THINK THAT THEY CAN CHANGE THE WORLD</p>
+	<p>ARE THE ONES WHO DO.</p>
+	<br> -->
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p>- SHARDA UNIVERSITY</p>
+	</div>
+	</div>
+</center>
+<br>
+<br>
+<br>
+<br>	
+<footer style="background-color: #EEEEEE;height: 50px;; position:relative;bottom: 0;">
+    <div style="text-align: center;padding: 15px"
+    ><i>:- DEVESH KUMAR</i>
+    </div></footer>
+	<script>	
+							/*Day reminder*/
+		var date,day,time,cdate,cyear;
+		date = new Date();
+		day = date.getDay();
+		time = date.getHours();
+		cdate = date.getDate();
+		cyear = date.getFullYear();
+		var daycolor = ['' , '#75e900' ,'#5c00d2', '#FF5722', '#6D4C41', '#00796B', 'black'];
+		var wishes = ["Good Night","Good Morning","Good Afternoon","Good Evening"],turn;
+
+		if(time >= 21 || time <=4 )
+		{
+			turn = 0;
+		}
+		else if(time >=4 && time<12 )
+		{
+			turn = 1;
+		}
+		else if(time>=12 && time<=16)
+		{
+			turn = 2;
+		}
+		else if(time>=17 && time<=21)
+		{
+			turn = 3;
+		}
+		
+		document.getElementById('wish').innerHTML = wishes[turn];
+        
+		if(day == 0)
+		{
+
+			document.getElementById('sunday').style.display ="block";
+			document.getElementById('sunday').innerHTML = "[ Happy Sunday ]	";
+			
+		}
+		else
+		{
+		document.getElementById(day).style.border= "5px solid";
+		document.getElementById(day).style.borderColor = daycolor[day];
+		document.getElementById(day).style.fontSize = "20px";
+		document.getElementById(day).style.fontWeight = "bold";
+		document.getElementById(day).style.borderRight = "none";
+		document.getElementById(day).style.borderLeft = "none";
+		}
+		if(cyear > 2018 || cdate < 24)
+		{
+			document.getElementById('christmas').src = "#";
+			document.getElementById('christmas').style.visibility = "hidden";
+		}
+		if(cyear == 2019 && cdate <5)
+		{
+			document.getElementById('head').innerHTML = "C-note < / HAPPY NEW YEAR 2019 >";
+		}
+
+		
+      </script>
+      </body>
+</html>
